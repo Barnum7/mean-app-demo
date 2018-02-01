@@ -1,4 +1,4 @@
-require('./api/data/dbconnection.js').open();
+require('./api/data/db.js');
 var express = require('express');
 var app = express();
 var path = require('path');
@@ -27,5 +27,5 @@ app.use('/api', routes);
 // Listen for requests
 var server = app.listen(app.get('port'), function() {
   var port = server.address().port;
-  console.log('Server online on port ' + port);
+  console.log('Server online port ' + port);
 });
