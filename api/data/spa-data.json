@@ -1,0 +1,54 @@
+[{
+    "name": "Barnum Spa",
+    "stars": 5,
+    "description": "The single most exclusive spa in the city",
+    "photos": [
+        "../public/images/posh-spa.jpg"
+    ],
+    "currency": "CAD",
+    "services": [{
+        "type": "Manicure",
+        "description": "Treat your hands",
+        "photos": [
+            "../public/images/manicured-hands.jpg"
+        ],
+        "price": 20
+    }, {
+        "type": "Pedicure",
+        "description": "Treat your feet",
+        "photos": [
+            "../public/images/pedicure.jpg"
+        ],
+        "price": 25
+    }],
+    "location": {
+        "address": "123 Fake Street"
+    },
+    "reviews": [{
+        "name": "Real Person",
+        "id": "/user/real_person.json",
+        "review": "Awesome pedicure",
+        "rating": 5
+    }]
+}, {
+    "name": "Other Spa",
+    "stars": 4,
+    "description": "For normal people who can't get into The Barnum Spa",
+    "photos": ["../public/images/other-spa.jpg"],
+    "currency": "USD",
+    "services": [{
+        "type": "Manicure",
+        "description": "Not as good as The Barnum Manicure",
+        "photos": ["../public/images/shitty-manicure.jpg"],
+        "price": 25
+    }],
+    "location": {
+        "address": "221B Baker Street"
+    },
+    "reviews": [{
+        "name": "Legit Guy",
+        "id": "/user/legit-guy.json",
+        "review": "Go to The Barnum Spa if you can...",
+        "rating": 1
+    }]
+}]  
