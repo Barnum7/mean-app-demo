@@ -1,7 +1,7 @@
 {
-  "name": "Spas 'R Us",
+  "name": "Spas_'R_Us",
   "version": "1.0.0",
-  "description": "MEAN stack Demo App",
+  "description": "MEAN Stack Demo App",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -22,7 +22,8 @@
   "homepage": "https://github.com/Barnum7/mean-app-demo#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "mongodb": "^2.1.7"
   },
   "devDependencies": {
     "mocha": "^2.3.3"
